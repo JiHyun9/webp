@@ -1,0 +1,124 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+
+.navbar-fixed-top{
+	background-color: #ffc000;
+	border:0;
+	height:200px;
+}
+
+.page {
+	margin-top: 200px;  
+
+}
+.detail {
+	background-color: #ffc000;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	border:0;
+}
+.navigation {
+	width: 100%;
+	background-color: #e7e6e6;
+}
+
+.container {
+	background-color: #0e345b;
+}
+
+a {
+	text-decoration: none;
+}
+
+.navigation a{
+	padding : 10px 15px 10px 15px;
+	display: inline-block;
+}
+.row{
+	padding-top: 10px;
+}
+
+.navigation li a{
+	display: inline-block;
+	float: left;
+	color: #0e345b;
+}
+.logo{
+	margin-left: 5%;
+}
+
+
+#editor1 {
+	margin-top: 20px;
+
+}
+#imagefile{
+	float: left;
+}
+
+.writebtn{
+	background-color: #ffc000;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	border:0;
+
+}
+
+.searchBtn{
+	background-color: #ffc000;
+	float: right;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	border:0;
+	margin-left:20px;
+
+}
+#searchinput{
+	float: right;
+
+}
+
+#cke_userwrite {
+	margin-top:20px;
+}
+
+.nav{
+	width: 100%;
+	float: left;
+}
+.container{
+	width: 100%;
+	float: left;
+}
+@media screen and (max-width:1000px) {
+	.navigation {
+		text-align: center;
+	}
+
+	/*메뉴 크기 조절*/
+	.navigation a{
+		float : left;
+		padding : 10px 15px 10px 15px;
+		width:25%;
+	}
+
+	.nav li a{
+		width:25%;
+	}
+.navbar-fixed-top{
+	background-color: #ffc000;
+	border:0;
+	height:200px;
+}
+
+.page {
+	background-color: #0e345b;
+}
+
+
+}

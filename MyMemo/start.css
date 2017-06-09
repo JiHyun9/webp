@@ -1,0 +1,60 @@
+*{
+	margin : 0;
+	padding : 0;
+}
+
+.navbar-fixed-top{
+	background-color: #ffc000;
+	border:0;
+	height:200px;
+}
+
+.page {
+	padding-top: 200px;
+	background-color: #0e345b;
+}
+
+.container {
+	margin-top:120px;
+}
+
+.signinfo {
+	height:30px;
+}
+
+#userid, #userpassword,#confirm {
+	margin-left: 10px;
+}
+
+.detail {
+	background-color: #969696;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	border:0;
+}
+
+#sign, #confirm{
+    background-color: #ffc000;
+}
+.logo{
+	margin-left: 5%;
+	margin-top: 2%;
+}
+
+
+
+
+
+@media screen and (max-width:1000px) {
+.navbar-fixed-top{
+	background-color: #ffc000;
+	border:0;
+	height:200px;
+}
+
+.page {
+	padding-top: 200px;
+	background-color: #0e345b;
+}
+}
